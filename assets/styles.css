@@ -1,0 +1,63 @@
+/* colors and font styles */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+footer {
+    background-color: #1F2937;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB; 
+}
+
+.logo-text {
+    font-size: 24px;
+}
+
+.main-text,
+.logo-text {
+    color: #F9FAF8;
+}
+
+.blue-bg {
+    background-color: #3882F6;
+}
+
+.header-text {
+    font-weight: 900;
+}
+
+.white-bg {
+    background-color: #E5E7EB; 
+}
+
+.quote-text {
+    font-style: light italic;
+}
+
+.header-text,
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+/* custom */
+
+.flex-row {
+    display: flex;
+    flex-flow: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-flow: column;
+}
