@@ -1,11 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Landing Page</title>
-</head>
-<body>
-    
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Landing Page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="flex-col">
+        <header class="header flex-row">
+            <div class="flex-row">
+                <img src="" alt="">
+                <h3 class="logo-text">Header Logo</h3>
+            </div>
+            <nav class="logo-links">
+                <ul class="flex-row">
+                    <li class="secondary-text"><a href="#main-section" rel="noopener noreferrer">link 1</a></li>
+                    <li class="secondary-text"><a href="#info-section" rel="noopener noreferrer">link 2</a></li>
+                    <li class="secondary-text"><a href="#quote-section" rel="noopener noreferrer">link 3</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section id="main-section" class="flex-row">
+                <div class="flex-col">
+                    <h1 class="main-text">My Website</h1>
+                    <p class="secondary-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, officiis perferendis! Itaque accusantium repellat asperiores nobis exercitationem, doloribus autem delectus praesentium sunt deserunt voluptatem aliquam. Inventore optio nobis assumenda odio.</p>
+                    <button class="blue-bg">Sign up</button>
+                </div>
+                <figure>
+                    <img src="" alt="">
+                    <figcaption>placeholder for an image</figcaption>
+                </figure>
+            </section>
+            <section id="info-section" class="flex-col">
+                <h2 class="header-text">Some random information</h2>
+                <ul class="flex-row">
+                    <li>
+                        <figure>
+                            <img src="" alt="">
+                            <figcaption>some subtext for an illustration 1</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="" alt="">
+                            <figcaption>some subtext for an illustration 2</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="" alt="">
+                            <figcaption>some subtext for an illustration 3</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="" alt="">
+                            <figcaption>some subtext for an illustration 4</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+            <section id="quote-section" class="flex-col">
+                <blockquote>
+                    <p>some quote</p>
+                    <cite>- someone I know</cite>
+                </blockquote>
+            </section>
+            <aside class="cta-banner blue-bg flex-row">
+                <div class="cta-text flex-col">
+                    <h4>Call to action! It's time!</h4>
+                    <p>Sign up here</p>
+                </div>
+                <button>Sign up</button>
+            </aside>
+        </main>
+
+        <footer class="footer">
+            <p>© The Odin Project 2025</p>
+        </footer>
+    </body>
+    </html>

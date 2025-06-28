@@ -17,24 +17,24 @@ ___
     - [x] Add title placeholder to index.html
 
 2. Create Colors and Fonts in styles.css
-    - [ ] body font
-    - [ ] header-bg and footer-bg
-    - [ ] main-text
-    - [ ] secondary-text
-    - [ ] logo-text
-    - [ ] blue-button, cta
-    - [ ] header-text
-    - [ ] quote-background
-    - [ ] quote-text
-    - [ ] flex-row
-    - [ ] flex-col
+    - [x] body font
+    - [x] header-bg and footer-bg
+    - [x] main-text
+    - [x] secondary-text
+    - [x] logo-text
+    - [x] blue-button, cta
+    - [x] header-text
+    - [x] quote-background
+    - [x] quote-text
+    - [x] flex-row
+    - [x] flex-col
 
 3. Structure webpage in index.html
-    - [ ] header
-        - [ ] header-logo
-        - [ ] header-links
+    - [x] header
+        - [x] header-logo
+        - [x] header-links
     - [ ] content
-        - [ ] main-section
-        - [ ] information-section
+        - [x] main-section
+        - [x] information-section
         - [ ] quote-section
     - [ ] footer 

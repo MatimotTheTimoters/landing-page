@@ -5,7 +5,8 @@ body {
 }
 
 header,
-footer {
+footer,
+#main-section {
     background-color: #1F2937;
 }
 
