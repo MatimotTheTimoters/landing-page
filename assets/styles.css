@@ -22,6 +22,7 @@ footer,
 
 .logo-text {
     font-size: 24px;
+    margin: 10px 0;
 }
 
 .main-text,
@@ -53,6 +54,10 @@ footer,
 
 /* custom */
 
+* {
+    box-sizing: border-box;
+}
+
 .flex-row {
     display: flex;
     flex-flow: row;
@@ -61,4 +66,28 @@ footer,
 .flex-col {
     display: flex;
     flex-flow: column;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+
+header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container,
+.links-container {
+    margin: 0 50px;
+    gap: 30px;
+    justify-content: space-between;
 }

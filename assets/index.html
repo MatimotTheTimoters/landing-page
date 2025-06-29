@@ -8,20 +8,20 @@
     </head>
     <body class="flex-col">
         <header class="header flex-row">
-            <div class="flex-row">
-                <img src="" alt="">
+            <div class="logo-container flex-row">
+                <img src="" alt="" class="logo-img">
                 <h3 class="logo-text">Header Logo</h3>
             </div>
-            <nav class="logo-links">
-                <ul class="flex-row">
-                    <li class="secondary-text"><a href="#main-section" rel="noopener noreferrer">link 1</a></li>
-                    <li class="secondary-text"><a href="#info-section" rel="noopener noreferrer">link 2</a></li>
-                    <li class="secondary-text"><a href="#quote-section" rel="noopener noreferrer">link 3</a></li>
+            <nav>
+                <ul class="links-container flex-row">
+                    <li><a href="#main-section" rel="noopener noreferrer" class="secondary-text">header link 1</a></li>
+                    <li><a href="#info-section" rel="noopener noreferrer" class="secondary-text">header link 2</a></li>
+                    <li><a href="#quote-section" rel="noopener noreferrer" class="secondary-text">header link 3</a></li>
                 </ul>
             </nav>
         </header>
 
-        <main class="main">
+        <main class="main flex-col">
             <section id="main-section" class="flex-row">
                 <div class="flex-col">
                     <h1 class="main-text">My Website</h1>
@@ -30,7 +30,7 @@
                 </div>
                 <figure>
                     <img src="" alt="">
-                    <figcaption>placeholder for an image</figcaption>
+                    <figcaption class="secondary-text">placeholder for an image</figcaption>
                 </figure>
             </section>
             <section id="info-section" class="flex-col">

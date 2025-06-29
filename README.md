@@ -33,8 +33,22 @@ ___
     - [x] header
         - [x] header-logo
         - [x] header-links
-    - [ ] content
+    - [x] content
         - [x] main-section
         - [x] information-section
-        - [ ] quote-section
-    - [ ] footer 
+        - [x] quote-section
+    - [x] footer 
+
+4. Apply properties on flex containers and flex items in the header
+    - [x] box-sizing
+    - [x] flex-flow
+    - [x] justify-content
+    - [x] align-items
+    - [x] gap
+
+5. Apply properties on flex containers and flex items in the body
+    - [ ] box-sizing
+    - [ ] flex-flow
+    - [ ] justify-content
+    - [ ] align-items
+    - [ ] gap
