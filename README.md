@@ -1,13 +1,6 @@
 # landing-page
-___
 
-## Checklist
-
-### Status Symbols:
-[ ] Not started/In progress
-[x] Done
-
-### Tasks:
+### ☑️ Tasks:
 1. Initialize project
     - [x] Create assets directory
     - [x] Touch files:
@@ -60,8 +53,14 @@ ___
     - [x] gap
 
 7. Apply properties on flex containers and flex items in quote-section
-    - [ ] flex-flow
-    - [ ] justify-content
+    - [x] flex-flow
+    - [x] justify-content
+    - [x] align-items
+    - [x] flex
+
+8. Apply properties on flex containers and flex items in CTA
+    - [x] flex-flow
+    - [x] justify-content
     - [ ] align-items
     - [ ] flex
     - [ ] gap

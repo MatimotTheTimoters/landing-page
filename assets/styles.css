@@ -121,11 +121,15 @@ main,
     margin: 10px;
 }
 
-.main-content button {
+.main-content button,
+.cta-banner button {
     width: 150px;
     height: 40px;
     border-radius: 10px;
     font-weight: bold;
+}
+
+.main-content button {
     border: none;
 }
 
@@ -152,10 +156,46 @@ main,
 }
 
 #quote-section {
-    padding: 50px;
+    padding: 100px;
     justify-content: center;
     align-items: center;
     align-self: stretch;
+}
+
+p.quote-text {
+    align-self: center;
+    width: 1000px;
+}
+
+cite.quote-text {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.cta-banner {
+    width: 1000px;
+    height: 100px;
+    padding: 50px;
+    margin: 100px;
+    border-radius: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-banner .cta-text {
+    flex: 2
+}
+
+.cta-banner button {
+    background-color: transparent;
+    border: 2px solid #E5E7EB;
+    flex: 1;
+}
+
+.cta-banner h4.secondary-text,
+.cta-banner p.secondary-text {
+    margin: 0;
 }
 
 
