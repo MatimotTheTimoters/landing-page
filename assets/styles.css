@@ -13,6 +13,7 @@ footer,
 .main-text {
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
 }
 
 .secondary-text {
@@ -91,3 +92,58 @@ header {
     gap: 30px;
     justify-content: space-between;
 }
+
+/* main */
+
+main,
+#main-section,
+#info-section,
+#quote-section,
+.cta-banner {
+    justify-content: center;
+    align-items: center;
+}
+
+#main-section {
+    padding: 50px 100px;
+}
+
+.main-content,
+.main-image {
+    width: 400px;
+    height: 200px;
+    
+    flex: 1;
+}
+
+.main-content * {
+    margin: 10px;
+}
+
+.main-content button {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.main-image {
+    background-color: grey;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#info-section figure {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+#quote-section {
+    flex: 1;
+}
+
+
+

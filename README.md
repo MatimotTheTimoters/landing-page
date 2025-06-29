@@ -40,15 +40,21 @@ ___
     - [x] footer 
 
 4. Apply properties on flex containers and flex items in the header
-    - [x] box-sizing
     - [x] flex-flow
     - [x] justify-content
     - [x] align-items
     - [x] gap
 
-5. Apply properties on flex containers and flex items in the body
-    - [ ] box-sizing
-    - [ ] flex-flow
-    - [ ] justify-content
-    - [ ] align-items
+5. Apply properties on flex containers and flex items in main-section
+    - [x] flex-flow
+    - [x] justify-content
+    - [x] align-items
+    - [ ] flex
+    - [x] gap
+
+6. Apply properties on flex containers and flex items in info-section
+    - [x] flex-flow
+    - [x] justify-content
+    - [x] align-items
+    - [ ] flex
     - [ ] gap
