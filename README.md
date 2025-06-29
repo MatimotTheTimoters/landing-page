@@ -49,12 +49,19 @@ ___
     - [x] flex-flow
     - [x] justify-content
     - [x] align-items
-    - [ ] flex
+    - [x] flex
     - [x] gap
 
 6. Apply properties on flex containers and flex items in info-section
     - [x] flex-flow
     - [x] justify-content
     - [x] align-items
+    - [x] flex
+    - [x] gap
+
+7. Apply properties on flex containers and flex items in quote-section
+    - [ ] flex-flow
+    - [ ] justify-content
+    - [ ] align-items
     - [ ] flex
     - [ ] gap
