@@ -83,7 +83,7 @@ a {
 
 header {
     padding: 10px 120px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
