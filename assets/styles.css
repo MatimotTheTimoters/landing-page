@@ -82,8 +82,13 @@ a {
 /* header */
 
 header {
+    padding: 10px 200px;
     justify-content: space-between;
     align-items: center;
+}
+
+header * {
+    flex-grow: 0;
 }
 
 .logo-container,
@@ -140,6 +145,8 @@ main,
     align-items: center;
 }
 
+/* info */
+
 #info-section, #quote-section {
     margin-bottom: 100px;
 }
@@ -154,6 +161,8 @@ main,
 #info-section figcaption {
     text-align: center;
 }
+
+/* quote */
 
 #quote-section {
     padding: 100px;
@@ -172,11 +181,13 @@ cite.quote-text {
     font-weight: bold;
 }
 
+/* cta */
+
 .cta-banner {
     width: 1000px;
     height: 100px;
-    padding: 50px;
-    margin: 100px;
+    padding: 70px 100px;
+    margin-bottom: 100px;
     border-radius: 10px;
 
     justify-content: center;
@@ -189,14 +200,18 @@ cite.quote-text {
 
 .cta-banner button {
     background-color: transparent;
-    border: 2px solid #E5E7EB;
-    flex: 1;
+    border: 3px solid #E5E7EB;
+    flex-grow: 0;
 }
 
-.cta-banner h4.secondary-text,
-.cta-banner p.secondary-text {
+.cta-banner .secondary-text {
     margin: 0;
 }
 
+/* footer */
 
-
+footer {
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}

@@ -61,6 +61,14 @@
 8. Apply properties on flex containers and flex items in CTA
     - [x] flex-flow
     - [x] justify-content
-    - [ ] align-items
-    - [ ] flex
-    - [ ] gap
+    - [x] align-items
+    - [x] flex
+    - [x] gap
+
+9. Apply styling properties to footer
+    - [x] flex-container properties
+    - [x] font styling
+    - [x] sizing and positioning
+
+10. Fix header stretching to the ends when zooming out
+    - [ ] Maybe add a max-width property
