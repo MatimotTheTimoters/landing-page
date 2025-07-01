@@ -82,20 +82,15 @@ a {
 /* header */
 
 header {
-    padding: 10px 200px;
+    padding: 10px 120px;
     justify-content: space-between;
     align-items: center;
-}
-
-header * {
-    flex-grow: 0;
 }
 
 .logo-container,
 .links-container {
     margin: 0 50px;
     gap: 30px;
-    justify-content: space-between;
 }
 
 /* main */
@@ -106,18 +101,26 @@ main,
 #quote-section,
 .cta-banner {
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 #main-section {
     padding: 50px 100px; 
+    padding-bottom: 200px;
     align-self: stretch;
+}
+
+#main-section * {
+    margin: 0 50px;
+    flex: 1;
 }
 
 .main-content,
 .main-image  {
-    width: 500px;
-    height: 200px;
+    min-width: 500px;
+    min-height: 250px;
+    max-width: 1000px;
+    max-height: 500;
     
     flex: 0 0 auto;
 }

@@ -70,5 +70,4 @@
     - [x] font styling
     - [x] sizing and positioning
 
-10. Fix header stretching to the ends when zooming out
-    - [ ] Maybe add a max-width property
+10. [x] Fix header stretching to the ends when zooming out
